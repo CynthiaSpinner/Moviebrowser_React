@@ -1,0 +1,10 @@
+{
+    "editor.wordWrap": "on",
+    "cSpell.enableFiletypes": [
+        "jsx-tags"
+    ],
+    "powermode.explosions.duration": 500,
+    "powermode.explosions.enabled": false,
+    "powermode.presets": "magic",
+    "powermode.enabled": true
+}
