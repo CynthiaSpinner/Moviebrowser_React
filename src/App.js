@@ -5,7 +5,6 @@ import Home from "./Components/Home";
 import AboutView from "./Components/AboutView";
 import SearchView from "./Components/SearchView";
 import MovieView from "./Components/MovieView";
-// import NotFoundPage from "./Components/NotFoundPage";
 import { Redirect, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -36,7 +35,7 @@ function App() {
           <SearchView keyword={searchText} searchResults={searchResult} />
         </Route>
         <Route path="/movies/:id" component={MovieView} />
-        {/* <Route path="/404" component={NotFoundPage} /> */}
+
         <Redirect to="/404" />
       </Switch>
     </div>

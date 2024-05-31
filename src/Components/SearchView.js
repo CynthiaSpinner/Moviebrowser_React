@@ -2,7 +2,7 @@ import Hero from "./Hero";
 import { Link } from "react-router-dom";
 
 // TMDB API KEY = 8b44f8fec241953c7ed4a4df1f2e5266
-// Example link for movie searches = https://api.themoviedb.org/3/search/movie?api_key=8b44f8fec241953c7ed4a4df1f2e5266&language=en-US&query=star%20wars&page=1&include_adult=false
+// link for movie searches = https://api.themoviedb.org/3/search/movie?api_key=8b44f8fec241953c7ed4a4df1f2e5266&language=en-US&query=star%20wars&page=1&include_adult=false
 
 const MovieCard = ({ movie }) => {
   const posterUrl = `https://image.tmdb.org/t/p/w500${movie.poster_path}`;
@@ -15,8 +15,10 @@ const MovieCard = ({ movie }) => {
           className="card-img-top"
           alt={movie.original_title}
         />
+
         <div className="card-body">
           <h5 className="card-title">{movie.original_title}</h5>
+
           <Link to={detailUrl} className="btn btn-primary">
             Show details
           </Link>
