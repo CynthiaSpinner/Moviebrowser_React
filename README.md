@@ -2,7 +2,7 @@ Demonstrating skills in HTML, CSS, Bootstrap, API, JSON, Javascript, JQuery, Rea
 
 This is a React application that uses API pull requests to display movie details by user input searches.
 
-Packages used:
+Dependencies:
 testing-library/jest-dom
 testing-library/react
 testing-library/user-event
